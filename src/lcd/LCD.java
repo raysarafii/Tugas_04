@@ -75,7 +75,7 @@ public class LCD {
 
     // Mengatur kabel yang digunakan
     public void setCable(int option) { 
-    String[] cables = {"VGA", "Display Port" , "HDMI"}; 
+    String[] cables = {"VGA", "DVI", "HDMI", "Display Port"}; 
     this.kabel = cables[option];
   
 
