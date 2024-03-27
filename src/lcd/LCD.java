@@ -9,7 +9,7 @@ package lcd;
  * @author User
  */
 public class LCD {
-       // Status LCD
+   // Status LCD
     private String status;
 
     // Volume LCD
@@ -20,7 +20,7 @@ public class LCD {
   
 
     // Jenis kabel yang digunakan
-      private String kabel;
+    private String cable;
   
    // Mengatur status LCD
     public void setStatus(String status) {
@@ -76,7 +76,7 @@ public class LCD {
     // Mengatur kabel yang digunakan
     public void setCable(int option) { 
     String[] cables = {"VGA", "DVI", "HDMI", "Display Port"}; 
-    this.kabel = cables[option];
+    this.cable = cables[option];
   
 
 }
@@ -85,6 +85,6 @@ public class LCD {
         System.out.println("LCD Status: " + status);
         System.out.println("Volume: " + volume);
         System.out.println("Brightness: " + brightness);
-        System.out.println("Cable: " + kabel);
+        System.out.println("Cable: " + cable);
 }
 }
